@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcello | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio" class="link-nav">Início</a>
+            <a href="#projetos" class="link-nav">Projetos</a>
+            <a href="#contato" class="link-nav">Contato</a>
+        </nav>  
+    </header>
+
+    <main>
+        <section id="inicio" class="secao inicio">
+            <div class="container">
+                <div class="sobre-mim">
+                    <h1 class="titulo-inicio">Olá, eu sou <span class="destaque-inicio">Marcello Barreto</span></h1>
+                    <p class="descricao-inicio">
+                        Desenvolvedor apaixonado por criar soluções web elegantes e funcionais. Com experiência em front-end e back-end, busco sempre aprender novas tecnologias e melhorar minhas habilidades.
+                    </p>
+
+                    <div class="icones-sociais">
+                        <a href="https://github.com/lucasevangelistaa"><img src="imagens/icone-github.png" alt="Icone GitHub"></a>
+                        <a href="https://instagram.com/lucassss.lc"><img src="imagens/icone-instagram.png" alt="Icone Instagram"></a>
+                        <a href="https://linkedin.com/in/lucas1108"><img src="imagens/icone-linkedin.png" alt="Icone Linkedin"></a>
+                        <a href="https://wa.me/5598984986243"><img src="imagens/icone-whatsapp.png" alt="Icone WhatsApp"></a>
+                    </div>
+                </div>
+                <div class="foto-perfil">
+                    <img src="imagens/foto-perfil.png" alt="Minha foto de perfil" class="img-perfil">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="projetos" class="secao projetos">
+        <h2 class="titulo-secao">Projetos</h2>
+        <div class="container-projetos">
+            <div class="card-projeto">
+                <img src="imagens/projeto-unitech.png" alt="Projetos" class="imagem-projeto">
+                <div class="conteudo-projeto">
+                    <h3 class="titulo-projeto">Unitech CSS</h3>
+                    <p class="descricao-projeto">Descrição breve do projeto e tecnologias utilizadas no desenvolvimento.</p>
+                    <a href="#" class="botao">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="card-projeto">
+                <img src="imagens/projeto-bigburguer.png" alt="Projetos" class="imagem-projeto">
+                <div class="conteudo-projeto">
+                    <h3 class="titulo-projeto">BIG BURGUER</h3>
+                    <p class="descricao-projeto">Descrição breve do projeto e tecnologias utilizadas no desenvolvimento.</p>
+                    <a href="#" class="botao">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="card-projeto">
+                <img src="imagens/projeto-unitechHTML.png" alt="Projetos" class="imagem-projeto">
+                <div class="conteudo-projeto">
+                    <h3 class="titulo-projeto">Unitech HTML</h3>
+                    <p class="descricao-projeto">Descrição breve do projeto e tecnologias utilizadas no desenvolvimento.</p>
+                    <a href="#" class="botao">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="secao contato">
+        <h2 class="titulo-secao">Entre em Contato</h2>
+        <form class="form-contato">
+            <div class="grupo-form">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" class="campo">
+            </div>
+
+            <div class="grupo-form">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" class="campo">
+            </div>
+
+            <div class="grupo-form">
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" class="campo campo-texto "></textarea>
+            </div>
+
+            <button type="submit" class="botao botao-enviar">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="text-rodape">&copy; <span class="ano-atual"></span> Marcello Barreto. Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
